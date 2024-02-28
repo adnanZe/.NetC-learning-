@@ -92,7 +92,18 @@
 // // User command to run an application
 // Console.WriteLine(@"c:\invoices\app.exe -j");
 
-string firstName = "Bob";
-string greeting  = "Hello";
-string message = greeting + " " + firstName + "!";
-Console.WriteLine(message); 
+// string firstName = "Bob";
+// string greeting  = "Hello";
+// // string message = greeting + " " + firstName + "!";
+// string message = $"{greeting} {firstName}!";
+// string message2 = $"Hello {firstName}!";
+// Console.WriteLine(message); 
+// Console.WriteLine(message2);
+
+// int version = 11;
+// string updateText = "Update to Windows";
+// string message = $"{updateText} {version}";
+// Console.WriteLine(message);
+// Console.WriteLine($"{updateText} {version}!");
+string projectName = "First-Project";
+Console.WriteLine($@"C:\Output\{projectName}\Data");
