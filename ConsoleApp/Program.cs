@@ -340,11 +340,25 @@
 // C235
 // B179
 
-string[] orderIDs = ["B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179"];
-foreach (string orderID in orderIDs)
+// string[] orderIDs = ["B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179"];
+// foreach (string orderID in orderIDs)
+// {
+//     if (orderID.StartsWith('B'))
+//     {
+//         Console.WriteLine(orderID);
+//     }
+// }
+class Program
 {
-    if (orderID.StartsWith('B'))
+    static void Main(string[] args)
     {
-        Console.WriteLine(orderID);
+        string[] orderIDs = { "B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179" };
+        foreach (string orderID in orderIDs)
+        {
+            if (orderID.StartsWith('B'))
+            {
+                Console.WriteLine(orderID);
+            }
+        }
     }
 }
