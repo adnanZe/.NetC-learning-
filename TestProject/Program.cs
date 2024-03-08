@@ -1,29 +1,29 @@
-﻿// // // Random dice = new Random();
-// // // // int roll = dice.Next();
+﻿// // // // Random dice = new Random();
+// // // // // int roll = dice.Next();
 
-// // // int roll = dice.Next(1, 7);
-// // // Console.WriteLine(roll);
+// // // // int roll = dice.Next(1, 7);
+// // // // Console.WriteLine(roll);
 
 
-// // // Console.WriteLine(dice.Next(1, 7));
+// // // // Console.WriteLine(dice.Next(1, 7));
 
-// // // int number = 7;
-// // // string text = "seven";
+// // // // int number = 7;
+// // // // string text = "seven";
 
-// // // Console.WriteLine(number);
-// // // Console.WriteLine();
-// // // Console.WriteLine(text);
+// // // // Console.WriteLine(number);
+// // // // Console.WriteLine();
+// // // // Console.WriteLine(text);
 
-// // Random dice = new Random();
-// // int roll1 = dice.Next();
-// // int roll2 = dice.Next(101);
-// // int roll3 = dice.Next(50, 101);
+// // // Random dice = new Random();
+// // // int roll1 = dice.Next();
+// // // int roll2 = dice.Next(101);
+// // // int roll3 = dice.Next(50, 101);
 
-// // Console.WriteLine($"First roll: {roll1}");
-// // Console.WriteLine($"Second roll: {roll2}");
-// // Console.WriteLine($"Third roll: {roll3}");
+// // // Console.WriteLine($"First roll: {roll1}");
+// // // Console.WriteLine($"Second roll: {roll2}");
+// // // Console.WriteLine($"Third roll: {roll3}");
 
-// // initialize variables - graded assignments 
+// // // initialize variables - graded assignments 
 // int currentAssignments = 5;
 
 // int sophia1 = 93;
@@ -83,12 +83,28 @@
 // Console.WriteLine("Zahirah:\t" + zahirahScore + "\tB");
 // Console.WriteLine("Jeong:\t\t" + jeongScore + "\tA");
 
-decimal sophieExamScore = 0;
-decimal andrewExamScore = 0;
-decimal emmaExamScore = 0;
-decimal loganExamScore = 0;
+// decimal sophieExamScore = 0;
+// decimal andrewExamScore = 0;
+// decimal emmaExamScore = 0;
+// decimal loganExamScore = 0;
 
 
 
-Console.WriteLine("Student\t Exam Score\t Overall \n");
-Console.WriteLine("Sophia\t " + sophieExamScore + "\t");
+// Console.WriteLine("Student\t Exam Score\t Overall \n");
+// Console.WriteLine("Sophia\t " + sophieExamScore + "\t");
+
+string studentName = "Sophia Johnson";
+string course1Name = "English 101";
+string course2Name = "Algebra 101";
+string course3Name = "Biology 101";
+string course4Name = "Computer Science I";
+string course5Name = "Psychology 101";
+
+int course1Credit = 3;
+int course2Credit = 3;
+int course3Credit = 4;
+int course4Credit = 4;
+int course5Credit = 3;
+
+int gradeA = 4;
+int gradeB = 3;
