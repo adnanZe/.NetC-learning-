@@ -1,6 +1,6 @@
 using webApi.Models;
 
-namespace WebApi.Services;
+namespace webApi.Services;
 
 public static class PizzaService
 {
@@ -8,11 +8,11 @@ public static class PizzaService
     static int nextId = 3;
     static PizzaService()
     {
-        Pizzas = new List<Pizza>
-        {
+        Pizzas =
+        [
             new Pizza { Id = 1, Name = "Classic Italian", IsGlutenFree = false },
             new Pizza { Id = 2, Name = "Veggie", IsGlutenFree = true }
-        };
+        ];
     }
 
     public static List<Pizza> GetAll() => Pizzas;

@@ -4,3 +4,13 @@ GET {{webApi_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+GET {{webApi_HostAddress}}/pizza/
+Accept: application/json
+
+###
+
+GET {{webApi_HostAddress}}/pizza/1
+Accept: application/json
+
+###
