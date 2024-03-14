@@ -1,4 +1,4 @@
-using WebApi.Models;
+using webApi.Models;
 
 namespace WebApi.Services;
 
