@@ -14,3 +14,13 @@ GET {{webApi_HostAddress}}/pizza/1
 Accept: application/json
 
 ###
+
+POST {{webApi_HostAddress}}/pizza/
+Content-Type: application/json
+
+{
+    "name": "Hawaii",
+    "isGlutenFree": false
+}
+
+###
